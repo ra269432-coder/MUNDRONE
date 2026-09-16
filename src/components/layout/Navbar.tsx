@@ -39,10 +39,11 @@ export default function Navbar() {
           <Link href="#" className="flex items-center space-x-3 group">
             <Crosshair className="w-8 h-8 text-blue-600 transition-transform group-hover:rotate-90 duration-500" />
             <span className={clsx(
-              "font-bold text-xl tracking-widest transition-colors",
+              "flex items-baseline transition-colors",
               isScrolled ? "text-slate-900" : "text-white"
             )}>
-              MUNDRONE
+              <span className="font-black text-2xl md:text-3xl tracking-tight">MUN</span>
+              <span className="font-bold text-xs md:text-sm tracking-[0.25em] ml-1 text-blue-500">DRONE</span>
             </span>
           </Link>
           

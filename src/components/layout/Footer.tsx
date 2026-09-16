@@ -9,8 +9,9 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center space-x-3 mb-4">
               <Crosshair className="w-6 h-6 text-blue-500" />
-              <span className="font-bold text-xl tracking-widest text-white">
-                MUNDRONE
+              <span className="flex items-baseline text-white">
+                <span className="font-black text-2xl tracking-tight">MUN</span>
+                <span className="font-bold text-xs tracking-[0.25em] ml-1 text-blue-500">DRONE</span>
               </span>
             </Link>
             <p className="text-slate-400 text-sm mb-4 max-w-sm leading-relaxed">
